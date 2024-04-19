@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Menu do site */
+.header-bg {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.menu {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu img {
+  margin: 0 0 10px 10px;
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+}
+.menu-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-nav a {
+  padding: 10px;
+  font-size: 1.2em;
+  color: rgba(58, 57, 57, 0.767);
+}
+/* Home do site */
+.home {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+.home img {
+  margin: 0 0px 0 0;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.home-description {
+  flex: 1;
+}
+.home-description h1 {
+  margin: 0 10px;
+  font-size: 2em;
+  line-height: 1.4em;
+}
+.home-button {
+  margin: 80px 100px;
+  background: linear-gradient(45deg, #ffd700, #ffe066);
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #ffd700;
+  border-radius: 5px;
+  padding: 20px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+.arrow-down {
+  margin: 70px auto;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 30px solid black;
+}
+/* Consultoria */
+.consultancy-bg {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.title {
+  margin: 80px 0;
+  text-align: center;
+}
+.title h1 {
+  font-size: 2.3em;
+  line-height: 1.5;
+}
+.line-title{
+  border-bottom: 8px solid black;
+  width: 80px;
+  margin: 0 auto 10px;
+  border-radius: 40px;
+}
+.consultancy {
+  display: flex;
+  flex-wrap: wrap;
+}
+.consultancy-block {
+  width: 180px;
+  padding: 20px 10px;
+  margin: 20px auto;
+  background-color: #ffe066;
+  text-align: center;
+  line-height: 1.4;
+  border-radius: 10px;
+}
+.consultancy-block a button {
+  font-weight: 550;
+  font-size: 17px;
+  margin: 15px 0;
+  background: linear-gradient(to right, #007bff, #00bfff);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+  /* Menu do site resposivo */
+  .header-bg {
+    margin: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  .menu {
+    max-width: 960px;
+    justify-content: center;
+  }
+  .menu img {
+    width: 170px;
+    height: 80px;
+  }
+  .menu-nav a {
+    padding: 10px;
+    font-size: 1.3em;
+    color: rgba(58, 57, 57, 0.767);
+  }
+  /* Home do site responsivo */
+
+  .home {
+    max-width: 960px;
+    flex-direction: column-reverse;
+    padding: 20px 0;
+  }
+  .home img {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .home-description h1 {
+    margin: 20px 20px;
+    font-size: 1.4em;
+    line-height: 1.3;
+    color: rgba(0, 0, 0, 0.856);
+  }
+  .home-button {
+    margin: 0 50px;
+  }
+  .text::after {
+    content: "RESOLVA A SUA VIDA ACADÊMICA!";
+    display: block;
+    color: rgba(0, 0, 0, 0.795);
+    font-size: 18px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  /* Consultoria responsivo*/
+
+  .title {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .title h1 {
+    font-size: 2.3em;
+    line-height: 1.5;
+  }
+
+  .consultancy-block {
+    width: 290px;
+    padding: 20px 10px;
+    margin: 20px;
+    background-color: #ffe066;
+    text-align: center;
+    line-height: 1.4;
+    border-radius: 10px;
+  }
+}
