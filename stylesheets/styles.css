@@ -99,7 +99,7 @@ a {
   font-size: 2.3em;
   line-height: 1.5;
 }
-.line-title{
+.line-title {
   border-bottom: 8px solid black;
   width: 80px;
   margin: 0 auto 10px;
@@ -126,6 +126,51 @@ a {
   border: none;
   padding: 10px;
   border-radius: 10px;
+}
+/* Suporte */
+.support-bg {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.support {
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.support img {
+  width: 350px;
+  border-radius: 30px;
+}
+.icon-text{
+  margin: 30px 0px;
+}
+.icon-text i {
+  color: #25d366;
+}
+.icon-text h2 {
+  display: inline;
+}
+.icon-color i {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #833ab4,
+    #c13584,
+    #fd1d1d,
+    #f56040,
+    #f77737,
+    #fcaf45,
+    #ffdc80
+  );
+  color: white;
+  border-radius: 3px;
+}
+.button-contact{
+  margin: 20px 0px;
+}
+.title-support {
 }
 
 @media (max-width: 400px) {
