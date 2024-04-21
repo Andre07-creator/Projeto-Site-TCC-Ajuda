@@ -112,7 +112,7 @@ a {
 .consultancy-block {
   width: 180px;
   padding: 20px 10px;
-  margin: 20px auto;
+  margin:   0px auto;
   background-color: #ffe066;
   text-align: center;
   line-height: 1.4;
@@ -213,7 +213,7 @@ a {
     color: rgba(0, 0, 0, 0.856);
   }
   .home-button {
-    margin: 0 50px;
+    margin: 0 90px
   }
   .text::after {
     content: "RESOLVA A SUA VIDA ACADÊMICA!";
@@ -237,7 +237,7 @@ a {
   .consultancy-block {
     width: 290px;
     padding: 20px 10px;
-    margin: 20px;
+    margin: 20px auto;
     background-color: #ffe066;
     text-align: center;
     line-height: 1.4;
