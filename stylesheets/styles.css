@@ -243,4 +243,8 @@ a {
     line-height: 1.4;
     border-radius: 10px;
   }
+  /* Suporte responsivo */
+  .icon-text{
+    margin: 20px 20px;
+  }
 }
