@@ -170,10 +170,51 @@ a {
 .button-contact{
   margin: 20px 0px;
 }
-.title-support {
+
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(12, 52, 87);
+  height: 150px;
+  align-items: center;
+  padding: 0 0 0 10px;
 }
 
-@media (max-width: 400px) {
+.footer p {
+  font-size: 1em;
+  margin-top:20px
+}
+
+.social-media ul {
+  display: flex;
+  margin: 10px;
+  
+}
+.social-media ul li {
+  padding: 5px;
+  color: yellow;
+}
+@keyframes shine {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 10px #ffd700, 0 0 20px #ffec80, 0 0 30px #ffe680,
+      0 0 40px #ffd966, 0 0 50px #ffcf4d, 0 0 60px #ffbf00, 0 0 70px #ffaa00;
+  }
+}
+
+.golden {
+  font-size: 1em;
+  font-weight: bold;
+  color: #ffd700;
+  animation: shine 1.5s infinite alternate;
+}
+@media (max-width: 500px) {
   /* Menu do site resposivo */
   .header-bg {
     margin: 0;
@@ -247,4 +288,9 @@ a {
   .icon-text{
     margin: 20px 20px;
   }
+  .social-media  {
+    margin: 30px;
+    text-align: center;
+    }
+    
 }
