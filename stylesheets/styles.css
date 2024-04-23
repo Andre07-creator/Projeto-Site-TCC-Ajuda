@@ -112,7 +112,7 @@ a {
 .consultancy-block {
   width: 180px;
   padding: 20px 10px;
-  margin:   0px auto;
+  margin:   20px 20px;
   background-color: #ffe066;
   text-align: center;
   line-height: 1.4;
@@ -268,13 +268,16 @@ a {
 
   .title {
     margin: 10px 0;
-    text-align: center;
+    margin: 0 auto;
   }
   .title h1 {
     font-size: 2.3em;
     line-height: 1.5;
   }
-
+.title h1 {
+    font-size: 2.3em;
+    line-height: 1.5;
+  }
   .consultancy-block {
     width: 290px;
     padding: 20px 10px;
